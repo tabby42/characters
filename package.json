@@ -1,24 +1,27 @@
 {
-  "name": "minesweeper",
+  "name": "characters",
   "version": "1.0.0",
-  "description": "command line game",
-  "main": "minesweeper2.js",
+  "description": "exercise",
+  "main": "characters.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tabby42/minesweeper.git"
+    "url": "git+https://github.com/tabby42/characters.git"
   },
   "author": "tabby42",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tabby42/minesweeper/issues"
+    "url": "https://github.com/tabby42/characters/issues"
   },
-  "homepage": "https://github.com/tabby42/minesweeper#readme",
+  "homepage": "https://github.com/tabby42/characters#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
   }
 }
